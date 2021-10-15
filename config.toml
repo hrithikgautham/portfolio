@@ -34,8 +34,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
-  journal = "/journal/:year/:month/:day/:title/"
+  blogs = "/blogs/:year/:month/:title/"
 
 
 [author]
@@ -197,14 +196,10 @@ disableHugoGeneratorInject = false
     name       = "About"
     url        = "about/"
   [[menu.main]]
-    identifier = "journal"
-    name       = "Journal"
-    url        = "journal/"
+    identifier = "blogs"
+    name       = "Blogs"
+    url        = "blogs/"
   [[menu.main]]
     identifier = "skills"
     name       = "Skills"
     url        = "skills/"
-  [[menu.main]]
-    identifier = "blogs"
-    name       = "Blogs"
-    url        = "blogs/"
