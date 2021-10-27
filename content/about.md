@@ -10,4 +10,4 @@ Hello there! My name is **Hrithik Gautham TG**. I love solving problems. I am Cu
 
 
 
-If you have any queries please feel free to reach out to me on Twitter or shoot me an email - mail [at] hrithiktg [dot] in .
+If you have any queries please feel free to reach out to me on Twitter or shoot me an email - **hrithikgauthamtg@gmail.com** .
