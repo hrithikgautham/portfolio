@@ -5,8 +5,6 @@ draft: false
 tags: [java]
 ---
 
-# How to revert merge commit in git?
-
 lets say you are in ```master``` branch. and there is one more branch called ```test```.
 
 ![git history](/git_history.png)
@@ -47,7 +45,7 @@ Still the commit ```b``` changes is part of git history, but after reverting the
 
 Now, trying to revert ```master``` commit ```g```, is not that simple. ```g``` has 2 parents, ```d```(```master```) and ```f```(```test```).
 
-While reverting ```g```, we have to tell git where to revert back. Revert back to ```d``` or revert bck to ```f```.
+While reverting ```g```, we have to tell git where to revert back. Revert back to ```d``` or revert back to ```f```.
 
 If you git log, you'll find something like this
 
