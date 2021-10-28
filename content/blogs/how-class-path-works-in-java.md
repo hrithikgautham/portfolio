@@ -44,7 +44,7 @@ class Main {
 
 now create a ```Person.java``` file in ```./main/classes/Person.java```:
 
-<blockquote>
+<blockquote style="background-color: #333">
 package main.classes;
 
 public class Person {
@@ -59,7 +59,7 @@ public class Person {
 
 Use the ```Person.java``` class in Main.java:
 
-<blockquote>
+<blockquote style="background-color: #333">
 package main;<br>
 import main.classes.Person;
 
