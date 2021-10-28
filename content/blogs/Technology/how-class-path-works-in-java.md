@@ -102,10 +102,8 @@ In this case it is **./bin/**. because we have the root of the project in **./bi
 
 you can also run the program without **-cp**. for that you have to set **CLASSPATH** evironment variable to **./bin/**.
 
-```
-export CLASSPATH=./bin/
-java main/Main
-```
+```export CLASSPATH=./bin/```&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(for Mac)<br>
+```java main/Main```
 
 This technique can be used for and complex java projects. If you are using eclipse editor, the editor maintains **.classpath** file, which stores the path to the **.class** files.
 

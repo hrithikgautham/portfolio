@@ -34,8 +34,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  blogs = "/blogs/:year/:month/:title/"
-
+  blogs = "/blogs/:section/:title/"
 
 [author]
   name = "Hrithik Gautham TG"

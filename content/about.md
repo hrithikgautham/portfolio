@@ -6,8 +6,8 @@ aliases = ["about-us","about-hugo","contact"]
   name = "Hugo Authors"
 +++
 
-Hello there! My name is **Hrithik Gautham TG**. I love solving problems. I am Currently working as **Full Stack** Engineer at [Cisco](https://cisco.com). In my free time I enjoy building projects and playing guitar.
+Hi there! My name is **Hrithik Gautham TG**. I love solving problems. I am Currently working as **Full Stack** Engineer at [Cisco](https://cisco.com). In my free time I enjoy building projects and playing guitar.
 
 
 
-If you have any queries please feel free to reach out to me on Twitter or shoot me an email - **hrithikgauthamtg@gmail.com** .
+If you have any queries please feel free to reach out to me on Twitter(***@hrithik_tg***) or shoot me an email - **hrithikgauthamtg@gmail.com** .
