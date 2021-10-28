@@ -30,7 +30,7 @@ Range| Expertise
 1 - 2	|Have worked with it previously but either not much, or rusty.
 
 
-## <a name="programming"></a> Programming languages/ Frameworks
+## <a id="programming"></a> Programming languages/ Frameworks
 ------------------------------------------
 Grade |	Name |	Notes
 ------- |----- |--------------
@@ -41,7 +41,7 @@ Grade |	Name |	Notes
 4 |	Linux	 | Range 5.
 2 |	MySQL, OracleDB	 |  Oracle at Work, MySQL for personal projects.
 
-## <a name="other"></a> Other Technologies 
+## <a id="other"></a> Other Technologies 
 ------------------------------------------
 Grade |	Name |	Notes
 ------- |----- |--------------
@@ -50,7 +50,7 @@ Grade |	Name |	Notes
 4 |	AWS | Hosting, Solutions Architect
 4 |	Networking	 |  DNS, TCP/IP, Apache, Nginx
 
-## <a name="superpower"></a>Superpowers
+## <a id="superpower"></a>Superpowers
 -----------------------
 
 
@@ -63,7 +63,7 @@ I have the power to document stuff in a way that makes using them awesome.
 I can help others
 
 
-## <a name="languages"></a>Languages
+## <a id="languages"></a>Languages
 -----------------------
 Grade |	Name |	Notes
 ------- |----- |--------------
@@ -74,7 +74,7 @@ Grade |	Name |	Notes
 <!-- 1 | Spanish | can speak, understand basics. -->
 
 
-## <a name="more"></a>More 
+## <a id="more"></a>More 
 -----------------------
 I am able to work effectively in a team or on my Own. I have demonstrated an ability to lead small Teams and mentor other workers. I pride myself on being able to use my knowledge and initiative to deliver high quality results to tight deadlines. I enjoy a challenge and look for the opportunity to expand and develop my skill set.
 What does matter is the output of my work, which is always focused at the point where user, business and technical requirements meet and tends to become a perfect product.
