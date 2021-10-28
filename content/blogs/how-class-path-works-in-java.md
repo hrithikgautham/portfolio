@@ -44,7 +44,7 @@ class Main {
 
 now create a ```Person.java``` file in ```./main/classes/Person.java```:
 
-```
+<blockquote>
 package main.classes;
 
 public class Person {
@@ -55,12 +55,12 @@ public class Person {
 		System.out.println("my name is " + this.name);
 	}
 }
-```
+</blockquote>
 
 Use the ```Person.java``` class in Main.java:
 
-```
-package main;
+<blockquote>
+package main;<br>
 import main.classes.Person;
 
 class Main {
@@ -75,18 +75,19 @@ class Main {
 		person1.printName();
 	}
 }
-```
+</blockquote>
+
 
 Run the following command in terminal to create ```.class``` files in ```./bin``` folder.
 
 ```javac -d bin ./main/*.java  ```
 
-this command will create a ./bin folder, which will contain all the .class files necessary to run the program.
+this command will create a **./bin** folder, which will contain all the **.class** files necessary to run the program.
 
-now ./bin folder has 2 class files
+now **./bin** folder has 2 class files
 
-**./bin/main/Main.class**
-**./bin/main/classes/Person.class**
+1. &nbsp;&nbsp;```./bin/main/Main.class```
+2. &nbsp;&nbsp;```./bin/main/classes/Person.class```
 
 # Now lets run the program.
 
@@ -95,7 +96,7 @@ execute the following command in terminal to run the program:
 ```java -cp ./bin/ main/Main```
 
 **-cp** flag is used to specifybthe classpath.
-In this case it is *./bin/**. because we have the root of the project in **./bin** folder.
+In this case it is **./bin/**. because we have the root of the project in **./bin** folder.
 
 ***Note: Your **-cp** or **CLASSPATH** should point to the folder which has your compiled root project folder.***
 
