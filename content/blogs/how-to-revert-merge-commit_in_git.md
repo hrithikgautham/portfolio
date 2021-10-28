@@ -11,7 +11,7 @@ lets say you are in ```master``` branch. and there is one more branch called ```
 
 In the above image, the lowercase letters indicates the commit hashes.
 
-```master``` branch is pointing to commit ```d```, and the ```HEAD``` is pointing to ```master```.
+```master``` branch is pointing to commit ```d```, and the ```HEAD``` is pointing to ```master```. 
 
 So your current working directory has changes of commit ```d```.
 
