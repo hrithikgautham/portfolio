@@ -5,21 +5,8 @@ aliases = ["skills","aboutme","cv"]
 [ author ]
   name = "Hrithik Gautham TG"
 +++
-------------------------------------------
 
-1.[Programming languages](#programming)
-
-2.[Other Technologies ](#other)
-
-3.[Superpowers](#superpower)
-
-4.[Languages](#languages)
-
-5.[More](#more)
-
-------------------------------------------
 Grading scale:
-
 
 Range| Expertise
 -------------|--------
