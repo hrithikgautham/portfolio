@@ -2,7 +2,7 @@
 title: "How to revert merge commit in git?"
 date: 2021-10-15
 draft: false
-tags: [java]
+tags: [git]
 ---
 
 lets say you are in ```master``` branch. and there is one more branch called ```test```.

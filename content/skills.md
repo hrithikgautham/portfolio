@@ -22,7 +22,7 @@ Range| Expertise
 Grade |	Name |	Notes
 ------- |----- |--------------
 5 |	Javascript, Java, HTML, CSS	 | Current primary language at work and for side Projects.
-5 |	React | Work and for side Projects, Internship.
+5 |	React JS | Work and for side Projects, Internship.
 4 |	C / C++ | Undergrad Coursework.
 4 | Angular | Work and for side Projects, Internship.
 4 | Spring Boot | Work and for side Projects, Internship.
