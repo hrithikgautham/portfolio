@@ -9,13 +9,13 @@ tags: [java]
 
 if you have a single file ```Main.java```:
 
-```
+<blockquote style="background-color: #333">
 class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!");
   }
 } 
-```
+</blockquote>
 
 you can easily compile this in terminal using the commands:
 
@@ -29,7 +29,7 @@ java Main
 create a folder structure as shown:
 ```./main/Main.java```
 
-```
+<blockquote style="background-color: #333">
 package main;
 
 class Main {
@@ -38,7 +38,7 @@ class Main {
 		System.out.println("Hello World");
 	}
 }
-```
+</blockquote>
 
 ```Main.java``` just prints ```Hello World!``` text.
 
