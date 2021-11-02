@@ -9,13 +9,13 @@ tags: [java]
 
 if you have a single file ```Main.java```:
 
-<blockquote style="background-color: #333">
+```
 class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!");
   }
 } 
-</blockquote>
+```
 
 you can easily compile this in terminal using the commands:
 
@@ -29,7 +29,7 @@ java Main
 create a folder structure as shown:
 ```./main/Main.java```
 
-<blockquote style="background-color: #333">
+```
 package main;
 
 class Main {
@@ -38,13 +38,13 @@ class Main {
 		System.out.println("Hello World");
 	}
 }
-</blockquote>
+```
 
 ```Main.java``` just prints ```Hello World!``` text.
 
 now create a ```Person.java``` file in ```./main/classes/Person.java```:
 
-<blockquote style="background-color: #333">
+```
 package main.classes;
 
 public class Person {
@@ -55,12 +55,12 @@ public class Person {
 		System.out.println("my name is " + this.name);
 	}
 }
-</blockquote>
+```
 
 Use the ```Person.java``` class in Main.java:
 
-<blockquote style="background-color: #333">
-package main;<br>
+```
+package main;
 import main.classes.Person;
 
 class Main {
@@ -75,7 +75,7 @@ class Main {
 		person1.printName();
 	}
 }
-</blockquote>
+```
 
 
 Run the following command in terminal to create ```.class``` files in ```./bin``` folder.
