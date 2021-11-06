@@ -35,6 +35,7 @@ disableHugoGeneratorInject = false
 
 [permalinks]
   blogs = "/blogs/:title/"
+  books = "/books/:title/"
 
 [author]
   name = "Hrithik Gautham TG"
@@ -191,14 +192,18 @@ disableHugoGeneratorInject = false
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
     identifier = "blogs"
     name       = "Blogs"
     url        = "blogs/"
   [[menu.main]]
+    identifier = "books"
+    name       = "Books"
+    url        = "books/"
+  [[menu.main]]
     identifier = "skills"
     name       = "Skills"
     url        = "skills/"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
