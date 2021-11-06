@@ -1,11 +1,13 @@
 ---
-title: "Coffee can Investing"
+title: "Coffee can Investing by Saurabh Mukherjea, Rakshit Ranjan, Pranab Uniyal."
 date: 2021-11-06
 draft: false
 tags: [books, investing]
 ---
 
 ![coffee can investing](/coffee-can-investing.jpeg)
+
+## Summary: 
 
 * The Longer you invest the more likely compounding takes effect in your portfolio.
 * In short term, there are various factors the dictate share price. In the long run, earnings growth of the company determine share price.
