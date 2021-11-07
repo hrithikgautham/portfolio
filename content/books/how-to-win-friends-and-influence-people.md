@@ -1,5 +1,5 @@
 ---
-title: "How to win friends and influence people by Dale Carnegie."
+title: "How to win friends and influence people by Dale Carnegie"
 date: 2021-11-06
 draft: false
 tags: [books, social]

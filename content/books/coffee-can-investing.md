@@ -1,5 +1,5 @@
 ---
-title: "Coffee can Investing by Saurabh Mukherjea, Rakshit Ranjan, Pranab Uniyal."
+title: "Coffee can Investing by Saurabh Mukherjea, Rakshit Ranjan, Pranab Uniyal"
 date: 2021-11-06
 draft: false
 tags: [books, investing]
