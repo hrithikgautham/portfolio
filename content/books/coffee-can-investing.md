@@ -17,10 +17,10 @@ tags: [books, investing]
 * Invest in Companies which have a competitive advantage aka MOAT.
 * Low PE based investing doesnt work in India. Accounting Quality is highly variable in India and companies with low PE has fake earnings. Secondly, there is no corporate governance in India, because of which underperforming management with low PE is allowed to function.
 * Dont listen to intermediaries. One of the most used term in investing is “High risk, high returns”. This is not always true. Investing in fundamentally strong companies for a long period of time, beats market returns with considerably low risk.
-* 3 rules in finding a coffee can stock: 1) market cap over 100 cr. 2) ROCE of at least 15%. 3) YOY revenue growth over last 10 years should be atlas 10%.
+* 3 rules in finding a coffee can stock: ***1) market cap over 100 cr. 2) ROCE of at least 15%. 3) YOY revenue growth over last 10 years should be atlas 10%***.
 * Even during market crash, coffee can portfolio performs well compared to other stocks because of their low beta.
-* Patience premium: The excess return you get when you hold stock for more than 1 year over holding stock for exactly one year.
-* Quality premium: The excess return that you get when you have fundamentally strong stocks over Sensex returns.
+* ***Patience premium***: The excess return you get when you hold stock for more than 1 year over holding stock for exactly one year.
+* ***Quality premium***: The excess return that you get when you have fundamentally strong stocks over Sensex returns.
 * The longer you hold, the greater the patience premium. In case of Coffee can portfolio.
 * The shorter you hold, the greater the quality premium. In case of coffee can portfolio. The is because the index volatility is higher in shorter investment horizon compared to longer tie horizon.
 * PE multiple is not the best way to value a company.
