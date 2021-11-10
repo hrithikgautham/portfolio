@@ -27,7 +27,7 @@ Grade |	Name |	Notes
 4 | Angular | Work and for side Projects, Internship.
 4 | Spring Boot | Work and for side Projects, Internship.
 3 |	Linux	 | Basic Knowledge.
-3 |	Python |	Side Projects, Numpy, Pandas.
+3 |	Python |	Basic Knowledge, Numpy, Pandas.
 2 |	MySQL, OracleDB	 |  Oracle at Work, MySQL for personal projects.
 
 ## <a name="other"></a> Other Technologies 
@@ -38,7 +38,7 @@ Grade |	Name |	Notes
 4 |	AWS | Hosting, Solutions Architect
 4 |	Networking | DNS, TCP/IP, Apache, Nginx
 3 | Docker | Can write Dockerfile
-3 | Kubernetes | Basic Knowledge, can set up Wordpress sites with Auto scaling
+3 | Kubernetes | Basic Knowledge
 3 | Kafka | Basic Knowledge, can set up Producer/Consumer using Java
 
 ## <a name="superpower"></a>Superpowers
