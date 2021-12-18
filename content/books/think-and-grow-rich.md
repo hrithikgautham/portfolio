@@ -5,6 +5,7 @@ draft: false
 tags: [books, success]
 ---
 
+![think and grow rich](/think-and-grow-rich.jpeg)
 
 * Make your retreat harder so that only way out is to win the battle.
 * Have a BURNING DESIRE.
