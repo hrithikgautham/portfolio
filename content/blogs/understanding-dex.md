@@ -101,18 +101,22 @@ John is trading **10A**. So, Using formula **(1)**:<br>
 => XB = 83.33
 ```
 
-where **XB** is the final Quantity of Asset **B** in the pool after the trade.
+To keep it simple, we will not be considering trading fees.
 
-Initially there were **100 B**, but after the trade there are **83.33 B**. The difference in the final and initial Quantity of asset **B** is given to the trader. In other words, **(XB - NB)** is swapped for **10 A**.
+Where **XB** is the **final Quantity of Asset B** in the pool after the trade.
+
+Initially there were **100 B**, but after the trade there are **83.33 B**. The difference in the final and initial Quantity of asset **B** is given back to the trader. In other words, **(XB - NB)** is swapped for **10 A**.
 
 ```
-=> (XB - NB) = 100B - 83.33B
+=> (XB - NB) = (100B - 83.33B)
 => 16.67B
 ```
 
 Therefore, John gets **16.67B** for **10 A**. You might wonder **why not 20 B for 10 A, since 1A = 2B?** That's because, as more and more **B** is removed from the pool, the exchange charges more and more. That's how the Constant product market maker never runs out of assets. When the trader keeps trading for a particular asset more, the price of that asset increases exponentially. Because, there is less and less of that asset remaining in the pool.
 
 ![cpmm curve](/CPMM.png)
+
+From this curve, we can see that when the quantity of **B** goes down, **B** becomes more valuable with respect to asset **A**. Same can be said for asset **A**.
 
 State of the pool after John's trade:
 ```
@@ -137,7 +141,7 @@ If John wants to trade 10 A for B again, then,
 => XB = 5000 / 70
 => XB = 71.42
 ```
-John gets **11.91 B(XB - NB)** for **10 A**. He got even lesser that what he got in his first trade.
+John gets **11.91 B**(XB - NB) for **10 A**. He got even lesser that what he got in his first trade.
 
 State of the pool after John's second trade:<br>
 ```
@@ -145,9 +149,11 @@ NA = 70
 NB = 71.42
 NA * NB = 5000
 ```
-The new exchange rate is,<br>
-=> 1A = (71.42/70)B <br>
-=> 1A = 1.02B<br>
+The new exchange rate is<br>
+```
+=> 1A = (71.42/70)B
+=> 1A = 1.02B
+```
 
 Now, the value of **A** and **B** are almost the same.
 
