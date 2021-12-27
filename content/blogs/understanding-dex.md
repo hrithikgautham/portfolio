@@ -1,5 +1,5 @@
 ---
-title: "Understanding DEX."
+title: "Understanding DEX(Decentralised Exchange)."
 date: 2021-12-27
 draft: false
 tags: [blockchain, crypto, ethereum, dex]
