@@ -7,15 +7,15 @@ tags: [blockchain, crypto, ethereum, dex]
 
 ## **Glossary:**
 ```
-DEX => Decentralised Exchange.
-CEX => Centralised exchange.
-ETF => Exchange traded funds.
-NSE => National Stock exchange.
-BSE => Bombay stock exchange.
-NYSE => Newyork stock exchange.
-SEBI => Security Exchange board of India.
+DEX => Decentralised EXchange.
+CEX => Centralised EXchange.
+ETF => Exchange Traded Funds.
+NSE => National Stock Exchange.
+BSE => Bombay Stock Exchange.
+NYSE => Newyork Stock Exchange.
+SEBI => Security Exchange Board of India.
 LP => Liquidity Provider.
-SEC => Security exchange commission.
+SEC => Security Exchange Commission.
 ```
 
 Let's first understand how a traditional exchanges work. If you look at how **NSE/BSE/NYSE/NASDAQ** work, they use "ORDER BOOK" model to match the orders. NSE, BSE etc, are centralised exchanges(CEX).
