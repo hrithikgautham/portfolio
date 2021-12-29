@@ -16,6 +16,7 @@ NYSE => Newyork Stock Exchange.
 SEBI => Security Exchange Board of India.
 LP => Liquidity Provider.
 SEC => Security Exchange Commission.
+DeFi => Decentralised Finance.
 ```
 
 Let's first understand how a traditional exchanges work. If you look at how **NSE/BSE/NYSE/NASDAQ** work, they use "ORDER BOOK" model to match the orders. NSE, BSE etc, are centralised exchanges(CEX).
@@ -156,6 +157,10 @@ The new exchange rate is<br>
 ```
 
 Now, the value of **A** and **B** are almost the same.
+
+There are billions of dolars locked in **DeFi**. If we dont embrace this technology and the projects build around it, we are missing something great in the technology space. This is like the early days of the internet, where you could send only email and text messages across. See what the internet has grown into now. We can send images, videos etc. New professions has poped up from nowhere like streaming content etc. We can only imagine for now how the world would be with blockchain at its full potential. People are very sceptical about Blockchain and Crypto mostly because they dont understand what it is and what it represent. You dont have to invest in cryptos, atleast understand the projects built around the blockchains. If the blockchain indeed turns out to be the next big thing after 10 yrs, you are not lagging behind. 
+
+***Thanks You!***
 
 ## References:
 
