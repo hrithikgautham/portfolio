@@ -5,7 +5,7 @@ draft: false
 tags: [books, success, personal development]
 ---
 
-![the compound effect](/the-compound-effect-book.jpeg)
+![the compound effect](/the-compound-effect-book2.jpeg)
 
 * Small Inconsequential efforts every day, can make a whole lot of difference over time.
 * Even choice that we make, compounds over time and become what we are today.
