@@ -2,7 +2,7 @@
 title: "Think and Grow Rich."
 date: 2021-12-18
 draft: false
-tags: [books, success]
+tags: [books, success, personal development]
 ---
 
 ![think and grow rich](/think-and-grow-rich.jpeg)
