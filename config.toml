@@ -179,6 +179,10 @@ disableHugoGeneratorInject = false
     name = "stackoverflow"
     url  = "https://stackoverflow.com/users/11575001/hrithik-gautham"
 
+  [[params.social]]
+    name = "leetcode"
+    url  = "https://leetcode.com/hrithk/"
+
 # [languages]
 #   [languages.en]
 #     subtitle  = "Hello Friend NG Theme"
