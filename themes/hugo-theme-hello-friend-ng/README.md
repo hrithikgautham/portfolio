@@ -31,15 +31,16 @@ This theme was highly inspired by the [hello-friend](https://github.com/panr/hug
 ## Features
 
 - Theming: **dark/light mode**, depending on your system preferences or the users choice
-- Great reading experience thanks to [**Inter UI font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
+- Great reading experience thanks to [**Inter font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
 - Nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
 - An easy way to modify the theme with Hugo tooling
 - Fully responsive
-- Audio support for posts (thanks to [@talbotp](https://github.com/talbotp))
+- Support for audio in posts (thanks to [@talbotp](https://github.com/talbotp))
 - Builtin (enableable/disableable) multilanguage menu
 - Support for social icons
 - Support for sharing buttons
 - Support for [Commento](https://commento.io)
+- Support for [Plausible](https://plausible.io) (thanks to [@Joffcom](https://github.com/Joffcom))
 
 ## How to start
 
@@ -84,6 +85,9 @@ paginate     = 10
 
   # Enable sharing buttons, if you like
   enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = true
 
   # Metadata mostly used in document's head
   description = "My new homepage or blog"
@@ -98,10 +102,12 @@ paginate     = 10
 [languages]
   [languages.en]
     title = "Hello Friend NG"
-    subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
+
+  [languages.en.params]
+    subtitle  = "A simple theme for Hugo"
 
     [languages.en.params.logo]
       logoText = "hello friend ng"
