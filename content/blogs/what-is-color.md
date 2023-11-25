@@ -1,5 +1,5 @@
 ---
-title: "Understanding DEX(Decentralised Exchange)."
+title: "What is Color?"
 date: 2023-11-25
 draft: false
 tags: [color]
