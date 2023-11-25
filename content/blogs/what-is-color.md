@@ -36,6 +36,6 @@ Think of saturation as the intensity of the color. When you buy new clothes, the
 
 ## Luminosity
 
-![Luminosity](/Luminosity.png)
+![Luminosity](/Luminosity.jpeg)
 
 Luminosity is just the level of white or black in a color. Higher the luminosity Lighter the color and vise versa.
