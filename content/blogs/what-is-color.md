@@ -39,3 +39,17 @@ Think of saturation as the intensity of the color. When you buy new clothes, the
 ![Luminosity](/Luminosity.jpeg)
 
 Luminosity is just the level of white or black in a color. Higher the luminosity Lighter the color and vise versa.
+Depending on whether there is black, white, or grey, Luminosity can be further divided into **shade**, **tint**, **tone**.
+
+## Tint
+
+When you add **white** color to an existing Hue, it becomes tint of that color. Tint is a lighter version of hue.
+
+## Shade
+
+When you add **black** color to an existing Hue, it becomes shade of that color. Tint is a darker version of hue.
+
+## Tone
+
+Tone is a middle ground. When **grey** color is added, it becone a tone. Tone lies between tint and shade.
+
