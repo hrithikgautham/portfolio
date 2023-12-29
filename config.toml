@@ -196,6 +196,10 @@ disableHugoGeneratorInject = false
 
 [menu]
   [[menu.main]]
+    identifier = "certifications"
+    name       = "Certifications"
+    url        = "certifications/"
+  [[menu.main]]
     identifier = "blogs"
     name       = "Blogs"
     url        = "blogs/"
