@@ -173,11 +173,11 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/in/hrithik-tg-b106a116b"
+    url  = "https://www.linkedin.com/in/hrithiktg/"
 
   [[params.social]]
-    name = "stackoverflow"
-    url  = "https://stackoverflow.com/users/11575001/hrithik-gautham"
+    name = "framer"
+    url  = "https://hrithiktg.framer.website/"
 
   [[params.social]]
     name = "leetcode"
