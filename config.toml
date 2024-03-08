@@ -176,10 +176,6 @@ disableHugoGeneratorInject = false
     url  = "https://www.linkedin.com/in/hrithiktg/"
 
   [[params.social]]
-    name = "framer"
-    url  = "https://hrithiktg.framer.website/"
-
-  [[params.social]]
     name = "leetcode"
     url  = "https://leetcode.com/hrithk/"
 
