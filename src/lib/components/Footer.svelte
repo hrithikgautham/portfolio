@@ -12,7 +12,7 @@
     <div class="row">
       <span>Email</span>
       <hr />
-      <a class="link" href="mailto:mail@bsid.io">mail@hrithiktg.com</a>
+      <a class="link" href="mailto:mail@hrithiktg.com">mail@hrithiktg.com</a>
     </div>
     <div class="row">
       <span>Instagram</span>

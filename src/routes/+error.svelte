@@ -7,7 +7,7 @@
     >
       <span class="font-medium">404</span>
       <div class="mx-4 h-8 border-l border-black" />
-      <p>      If you are looking for article from my old site you will find it here <a  class="link" href="https://v1.bsid.io{$page.url.pathname}"> v1.bsid.io{$page.url.pathname}</a>
+      <p>      go back bro.
       </p>
     
     </div>
