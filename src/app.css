@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+nav {
+  @apply flex items-start text-neutral-500 justify-end space-x-6 text-lg py-0.5;
+}
+
+.active-link {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-underline-offset: 4px;
+}
+
+.page-title {
+  @apply font-light;
+}
+
+
+@media (max-width: 420px) {
+  nav {
+    @apply flex-col items-end space-x-0;
+  }
+}
+
+@layer base {
+  hr {
+    @apply border-neutral-200;
+  }
+}
+
+@layer components {
+  .link {
+    @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
+    @apply hover:text-black hover:decoration-black transition-colors;
+    @apply dark:hover:text-white dark:hover:decoration-white;
+  }
+
+  .layout-md {
+    @apply max-w-screen-md mx-auto px-4 sm:px-6;
+  }
+
+  .heading2 {
+    @apply text-black text-xl font-semibold mb-4;
+  }
+}
+
+html {
+  @apply motion-safe:scroll-smooth;
+}
+
+body {
+  @apply /* antialiased */ py-12 sm:py-24 md:py-32 text-neutral-700;
+}
+
+
+.dark {
+  color-scheme: dark;
+}
+
+/* General selection styles */
+::selection {
+  background-color: #FFFF00; /* Bright yellow */
+  color: #000000; /* Ensure text is black when selected */
+}
+
+/* For Firefox */
+::-moz-selection {
+  background-color: #FFFF00;
+  color: #000000;
+}
+
+/* Specific style for the "everything" span */
+.border-dashed::selection {
+  background-color: #FFFF00;
+  color: #000000;
+  text-shadow: none; /* Remove any text shadow if present */
+}
+
+.border-dashed::-moz-selection {
+  background-color: #FFFF00;
+  color: #000000;
+  text-shadow: none;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.g {
+  @apply text-neutral-600;
+}
+
+em {
+  @apply font-serif text-[110%] leading-[100%];
+}
+
+.project-pair {
+  @apply grid sm:grid-cols-[1fr,2fr] gap-y-1 -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors;
+}
+
+aside {
+  @apply mt-0.5 text-base text-neutral-500;
+}
+
+/* Correction for vertical navigation links on mobile. */
+@media (max-width: 420px) {
+  nav {
+    @apply flex flex-col items-end space-x-0 space-y-1;
+  }
+}
+
+@font-face {
+    font-family: "Tiempos Headline Light";
+    src: url("https://db.onlinewebfonts.com/t/e4b6f66c5987eea12c8847782bc851f6.eot");
+    src: url("https://db.onlinewebfonts.com/t/e4b6f66c5987eea12c8847782bc851f6.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/e4b6f66c5987eea12c8847782bc851f6.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/e4b6f66c5987eea12c8847782bc851f6.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/e4b6f66c5987eea12c8847782bc851f6.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/e4b6f66c5987eea12c8847782bc851f6.svg#Tiempos Headline Light")format("svg");
+}
+.test{
+  font-family: "Tiempos Headline Light" !important;
+}
+
+:global(::selection) {
+  background-color: #FFFF00; /* Bright yellow */
+  color: #000000; /* Black text for contrast */
+}
+
+:global(::-moz-selection) {
+  background-color: #FFFF00;
+  color: #000000;
+}
+
+/* Specific style for the "everything" span */
+.border-dashed::selection {
+  background-color: #FFFF00;
+  color: #000000;
+  text-shadow: none;
+}
+
+.border-dashed::-moz-selection {
+  background-color: #FFFF00;
+  color: #000000;
+}
+
+.row {
+  @apply flex items-center space-x-4;
+}
+
+.row span {
+  @apply text-neutral-500;
+}
+
+.row hr {
+  @apply w-full mt-0.5 border-neutral-300 border-dotted;
+}
+
+
+@media (max-width: 580px) {
+  .page-title {
+    @apply block text-xl;
+  }
+
+  .page-title :first-child {
+    @apply hidden;
+  }
+}
+
+button {
+  @apply flex items-center text-neutral-400 transition-colors hover:text-black;
+}
+
+button.active {
+  @apply text-black;
+}
