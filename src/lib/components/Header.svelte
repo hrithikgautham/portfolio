@@ -1,47 +1,13 @@
-<script lang="ts">
-    import { page } from "$app/stores";
-  
-    const links = [
-      
-    ];
-  
-    let pageTitle: string | null = null;
-    $: {
-      const link = links.find(({ href }) => href === $page.url.pathname);
-      if (link) {
-        pageTitle = link.name.charAt(0).toUpperCase() + link.name.slice(1);
-      } else {
-        pageTitle = null;
-      }
-    }
-  </script>
+
   
   <header
     class="layout-md flex justify-between items-start"
     data-sveltekit-noscroll
     data-sveltekit-preload-code="eager"
   >
-    <h1 class="font-bold text-black text-2xl mb-6">
+    <h1 class="font-bold text-black text-2xl mb-12 md:mb-6">
       <a href="/">Hrithik TG</a>
-      {#if pageTitle}
-        <span class="page-title">
-          <span class="text-neutral-400">—</span>
-          {pageTitle}
-        </span>
-      {/if}
     </h1>
-    <nav>
-      {#each links as link (link)}
-        <a
-          href={link.href}
-          class="hover:text-black transition-colors active-link"
-          class:text-black={$page.url.pathname === link.href}
-          class:active-link={$page.url.pathname == link.href}
-          >
-          {link.name}
-        </a>
-      {/each}
-    </nav>
   </header>
   
   <style lang="postcss">
