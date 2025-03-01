@@ -1,13 +1,13 @@
 <script lang="ts">
 	import { ArrowUpRight } from 'lucide-svelte';
 	import Seo from '$lib/components/Seo.svelte';
-	import { browser, dev } from "$app/environment";
 	import Header from '$lib/components/Header.svelte';
+	import { browser, dev } from "$app/environment";
 </script>
 
 <Seo
-	title="Hrithik TG"
-	description="Founder, and a novice film-maker. Engineering high-impact solutions for people."
+	title="Hrithik TG's Blogs"
+	description="Blogs written by dublu club Founder"
 />
 
 <svelte:head>
@@ -25,12 +25,23 @@
     {/if}
   </svelte:head>
   
-  <Header />
-
+  <header
+    class="layout-md flex justify-between items-start"
+    data-sveltekit-noscroll
+    data-sveltekit-preload-code="eager"
+  >
+    <h1 class="font-bold text-black text-2xl mb-12 md:mb-6">
+      <a href="/blogs">Blogs</a>
+    </h1>
+		<h1>
+      <a href="/" class="font-bold text-neutral-500 test hover:underline">home</a>
+    </h1>
+  </header>
+	
 <p class="layout-md text-black text-xl leading-tight font-light mb-16" id="sid-is">
-	Founder<span class="g">,</span> Engineer<span class="g">,</span
+	Yap<span class="g">,</span> Storytelling<span class="g">,</span
 	><br />
-	novice film-maker and<br />
+	 and
 	<span class="test border-dashed border-b-2 everything-span">everything</span>
 	<span
 		style="background: linear-gradient(to right, #B22222, #000000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
@@ -42,23 +53,22 @@
 <div class="layout-md text-lg space-y-14">
 	<div class="space-y-5">
 		<p>
-			I'm Founder of  <a class="link" href="https://dubluclub.com">Dublu Club</a>.
+			This is my  <a class="link" href="/blogs">Blogs</a>.
 		</p>
 
 		<p>
-			I am a generalist and care deeply about <em>people around me who care</em>, I am also
-			interested in <em>cars</em>.
+			Everything and Anything i care about and i want to share to the outside world goes <em>here</em>.
 		</p>
 	</div>
 
 	<div class="space-y-5">
 		<p>
-			Previously, I worked at <a class="link" href="https://cisco.com"
-				>Cisco</a
-			> and 
-			<a class="link" href="https://alpha-grep.com">AlphaGrep</a> as a Software Engineer.
+			I write down my thoughts everyday.
 		</p>
 
+		<p>
+			Most of what you read here will be compilation of my thoughts on a day to day basis.
+		</p>
 		<!-- <p>
 			I graduated from Northeastern University, where I worked as research assistant under <a
 				class="link"
@@ -86,7 +96,7 @@
 			<a class="link" href="https://www.youtube.com/watch?v=y8tsd-As4xo">2</a>).
 		</p> -->
 
-		<p>Other interests: Running, math, reading, cinematography.</p>
+		<p><span class="test  everything-span">PS: I might talk about Pokemon, Cheetos, Counter Strike, Valorant here and there :)</span></p>
 	</div>
 
 	<!-- <div class="space-y-5">

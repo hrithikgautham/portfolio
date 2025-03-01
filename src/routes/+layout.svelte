@@ -18,22 +18,7 @@
       browser && matchMedia("(prefers-reduced-motion: reduce)").matches;
   </script>
   
-  <svelte:head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    {#if !dev}
-        <!-- Google tag (gtag.js) -->
-<script async defer src="https://www.googletagmanager.com/gtag/js?id=G-BRD0W6ZDSY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-BRD0W6ZDSY');
-</script>
-    {/if}
-  </svelte:head>
   
-  <Header />
   
   {#if isMobile || reducedMotion}
     <!--
