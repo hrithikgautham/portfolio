@@ -39,7 +39,7 @@
   </header>
 	
 	<!-- summarization -->
-<p class="layout-md text-black text-xl leading-tight font-light mb-16" id="sid-is">
+<!-- <p class="layout-md text-black text-xl leading-tight font-light mb-16" id="sid-is">
 	Yap<span class="g">,</span> Storytelling<span class="g">,</span
 	><br />
 	 and
@@ -49,11 +49,34 @@
 	>
 		<span class="italic test">in</span>-<span class="test"> between. </span>
 	</span>
-</p>
+</p> -->
 <!-- summarization -->
 
-<div class="layout-md text-lg space-y-14">
-	<h1>WIP</h1>
+<div class="layout-md text-lg flex flex-col gap-4">
+	<div>
+		<p>You are afraid that you may not be able to present your idea well.</p>
+		<blockquote class="text-neutral-400 pl-4">Everytime i try to present my startup idea, there is always resistance. I feel that i may not be able to explain. And not being in a position top explain in simple terms to others is a huge -ve.</blockquote>
+	</div>
+		
+	<div>
+		<p>What my mom would think if i stay up late at night.</p>
+		<blockquote class="text-neutral-400 pl-4">I guess this is a feeling every indian kid will have in their head. Everytime you stay up late you fell to inform your parents where you are, or they call u to find your whereabouts.</blockquote>
+	</div>
+
+	<div>
+		<p>I should i improve my storytelling skills.</p>
+		<blockquote class="text-neutral-400 pl-4">One of my worst skills. You know what they say "You need to do many times to become good at it". Guess i have to start telling more stories. Consiously put efforts to make the stories better.</blockquote>
+	</div>
+
+	<div>
+		<p>Running out of money.</p>
+		<blockquote class="text-neutral-400 pl-4">Things going out of hand. Expenses >>>> Income. You have to figure out things faster thatn you think.</blockquote>
+	</div>
+
+	<div>
+		<p>Running out of money.</p>
+		<blockquote class="text-neutral-400 pl-4">Things going out of hand. Expenses >>>> Income. You have to figure out things faster thatn you think.</blockquote>
+	</div>
 
 </div>
 
