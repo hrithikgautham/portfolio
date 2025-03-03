@@ -31,7 +31,7 @@
     data-sveltekit-preload-code="eager"
   >
     <h1 class="font-bold text-black text-2xl mb-12 md:mb-6">
-      <a href="/thoughts">thoughts</a>
+      <a href="/blogs">blogs</a>
     </h1>
 		<h1>
       <a href="/" class="font-bold text-neutral-500 test hover:underline">home</a>
@@ -39,50 +39,35 @@
   </header>
 	
 <p class="layout-md text-black text-xl leading-tight font-light mb-16" id="sid-is">
-	Yap<span class="g">,</span> Storytelling<span class="g">,</span
+	Interesting<span class="g">,</span> Cool<span class="g">,</span
 	><br />
 	 and
-	<span class="test border-dashed border-b-2 everything-span">everything</span>
+	<span class="test border-dashed border-b-2 everything-span">something </span>
 	<span
 		style="background: linear-gradient(to right, #B22222, #000000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
 	>
-		<span class="italic test">in</span>-<span class="test"> between. </span>
+		<span class="italic test">I</span> <span class="test"> Built. </span>
 	</span>
 </p>
 
 <div class="layout-md text-lg space-y-14">
 	<div class="space-y-5">
 		<p>
-			This is my  <a class="link" href="/thoughts">thoughts</a>.
+			This is my  <a class="link" href="/blogs">blogs</a>.
 		</p>
 
 		<p>
-			Everything and Anything i care about and i want to share to the outside world goes <em>here</em>.
+			Something i did research on my own and built it.
+		</p>
+
+		<p>
+			Writing here coz i didn't find any other sources on these topics
 		</p>
 	</div>
 
-	<div class="space-y-5">
-		<p>
-			I write down my thoughts everyday.
-		</p>
 
-		<p>
-			And Dump them here when i feel like it. Mostly weekly.
-		</p>
 
-		<p>
-			Most of what you read here will be compilation of my thoughts on a day to day basis.
-		</p>
-	
-		<div class="space-y-1">
-			<h2 class="font-bold">Reads: </h2>
-			<ol class="list-decimal ml-5">
-				<li class="link"><a href="/thoughts/week-1(22-feb-25-to-03-mar-25)">Week 1(22-feb-25 to 03-mar-25)</a></li>
-			</ol>
-		</div>
 
-		<p><span class="test  everything-span">PS: I might talk about Pokemon, Cheetos, Counter Strike, Valorant here and there :)</span></p>
-	</div>
 	
 </div>
 

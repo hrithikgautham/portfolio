@@ -9,6 +9,9 @@
       <a href="/">Hrithik TG</a>
     </h1>
     <h1>
+      <a href="/blogs" class="font-bold text-neutral-500 test hover:underline">blogs</a>
+    </h1>
+    <h1>
       <a href="/thoughts" class="font-bold text-neutral-500 test hover:underline">thoughts</a>
     </h1>
   </header>
