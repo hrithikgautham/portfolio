@@ -31,7 +31,7 @@
     data-sveltekit-preload-code="eager"
   >
     <h1 class="font-bold text-black text-2xl mb-12 md:mb-6">
-      <a href="/blogs">Blogs</a>
+      <a href="/thoughts">thoughts</a>
     </h1>
 		<h1>
       <a href="/" class="font-bold text-neutral-500 test hover:underline">home</a>
@@ -53,7 +53,7 @@
 <div class="layout-md text-lg space-y-14">
 	<div class="space-y-5">
 		<p>
-			This is my  <a class="link" href="/blogs">Blogs</a>.
+			This is my  <a class="link" href="/thoughts">thoughts</a>.
 		</p>
 
 		<p>
@@ -67,46 +67,26 @@
 		</p>
 
 		<p>
+			And Dump them here when i feel like it. Mostly weekly.
+		</p>
+
+		<p>
 			Most of what you read here will be compilation of my thoughts on a day to day basis.
 		</p>
-		<!-- <p>
-			I graduated from Northeastern University, where I worked as research assistant under <a
-				class="link"
-				rel="external"
-				href="https://github.com/nikbearbrown">Prof. Nik Brown</a
-			>, and studied Software Engineering, Information Systems. I was
-			<a
-				class="link"
-				rel="external"
-				href="https://coe.northeastern.edu/news/2024-coe-outstanding-graduate-student-awards/"
-			>
-				awarded outstanding graduate student
-			</a>
-			and
-			<a
-				class="link"
-				rel="external"
-				href="https://coe.northeastern.edu/news/2024-lux-veritas-virtus-inductees/"
-			>
-				Lux. Veritas. Virtus. society, a prestigious honor that recognizes exceptional graduate
-				students
-			</a>
-			I am a fitness enthusiast, enjoy making (very?) short-films(
-			<a class="link" href="https://www.youtube.com/watch?v=W0twZGBfyNs">1</a>,
-			<a class="link" href="https://www.youtube.com/watch?v=y8tsd-As4xo">2</a>).
-		</p> -->
+	
+		<div class="space-y-1">
+			<h2 class="font-bold">Reads: </h2>
+			<ol class="list-decimal ml-5">
+				<li class="link"><a href="/thoughts/week-1(22-feb-25-to-03-mar-25)">Week 1(22-feb-25 to 03-mar-25)</a></li>
+			</ol>
+		</div>
 
 		<p><span class="test  everything-span">PS: I might talk about Pokemon, Cheetos, Counter Strike, Valorant here and there :)</span></p>
 	</div>
 
-	<!-- <div class="space-y-5">
-		<img
-			alt="Candid Photograph of Siddhartha Bariker talking to someone in a conference."
-			src="/assets/images/self.webp"
-			class=""
-			loading="lazy"
-		/>
-	</div> -->
+
+
+	
 </div>
 
 <style>

@@ -89,14 +89,14 @@
 		<p>Other interests: Running, math, reading, cinematography.</p>
 	</div>
 
-	<!-- <div class="space-y-5">
+	<div class="space-y-5">
 		<img
 			alt="Candid Photograph of Siddhartha Bariker talking to someone in a conference."
-			src="/assets/images/self.webp"
+			src="/assets/images/me.JPG"
 			class=""
 			loading="lazy"
 		/>
-	</div> -->
+	</div>
 </div>
 
 <style>
