@@ -34,7 +34,7 @@
       <a href="/thoughts">Week 1(22-Feb-25 to 03-Mar-25)</a>
     </h1>
 		<h1>
-      <a href="/thoughts" class="font-bold text-neutral-500 test hover:underline">thoughts</a>
+      <a href="/thoughts" class="font-bold test text-neutral-500 hover:underline">thoughts</a>
     </h1>
   </header>
 	
@@ -69,13 +69,68 @@
 	</div>
 
 	<div>
-		<p>Running out of money.</p>
-		<blockquote class="text-neutral-400 pl-4">Things going out of hand. Expenses >>>> Income. You have to figure out things faster thatn you think.</blockquote>
+		<p>Posted 2 videos at the same time.</p>
+		<blockquote class="text-neutral-400 pl-4">I feel kinda anxious about that coz i feel what people is gonna perceive about me.</blockquote>
+	</div>
+	
+	<div>
+		<p>Accountability Problem.</p>
+		<blockquote class="text-neutral-400 pl-4">I dont feel accountable to anyone or anything. I'm just drifting in this ocean called life.</blockquote>
 	</div>
 
 	<div>
-		<p>Running out of money.</p>
-		<blockquote class="text-neutral-400 pl-4">Things going out of hand. Expenses >>>> Income. You have to figure out things faster thatn you think.</blockquote>
+		<p>Im incapable of building anything completely.</p>
+		<blockquote class="text-neutral-400 pl-4">I always get bored in between and switch to a different one. There is no sense of consistency and perseverence.</blockquote>
+	</div>
+
+	<div>
+		<p>Feels Good to communicate with her What i feel.</p>
+		<blockquote class="text-neutral-400 pl-4">I was thinking of leaving coz i thought that would be the right decision. But later i realised that, staying will be more challenging and like challenges :)</blockquote>
+	</div>
+
+	<div>
+		<p>I just have to be me when im recording.</p>
+		<blockquote class="text-neutral-400 pl-4">I always try to overcomplicate, trying to make the video better by making it more animated. Hoping that its going to be engaging. But in reality its not doing much good. I have to be the way i am in videos.</blockquote>
+	</div>
+
+	<div>
+		<p>Why should anyone give a fuck about what i say in videos.</p>
+		<blockquote class="text-neutral-400 pl-4">In this age where everyone dying to get attention, what will i do to make them stop scrolling and watch my video.</blockquote>
+	</div>
+
+	<div>
+		<p>Deep Appreciation.</p>
+		<blockquote class="text-neutral-400 pl-4">Deep appreciation for how far i have come. Not everyone made it this far. But here iam. Deep Appreciation for all my friends and family members, i would be here without all of them.</blockquote>
+	</div>
+
+	<div>
+		<p>I feel Devastated.</p>
+		<blockquote class="text-neutral-400 pl-4">I feel devastated for putting my parents in this position. I can give them a far better life. EVerything is fucked. But i can dig myself out of this. Not a problem.</blockquote>
+	</div>
+
+	<div>
+		<p>Progress is very slow.</p>
+		<blockquote class="text-neutral-400 pl-4">In a very long time i feel like im lagging behind. In everything. I have to push the limits. I have potential. Im not utilising it in a good way. I have what it takes to be the best. Im the best.</blockquote>
+	</div>
+
+	<div>
+		<p>Risk is my middle name.</p>
+		<blockquote class="text-neutral-400 pl-4">I take such huge risks that i feel very excited. But if things go south, it could potentially kill me. It is exciting, but challenging at the same time. I dont want to leave this state of constant thrilling. </blockquote>
+	</div>
+
+	<div>
+		<p>Beating myself down and not giving credit to myself.</p>
+		<blockquote class="text-neutral-400 pl-4">I always dont give credit myself for doing something good. I think that the moment i give credit i become complacent. But that is not true. REcently istarted appreciating every second of my life, and it feel liberating. </blockquote>
+	</div>
+
+	<div>
+		<p>Decision Paralysis.</p>
+		<blockquote class="text-neutral-400 pl-4">Sometimes i get overwhelmed by the decisions i have to take. And i enter this state of stillness. Where i dont do anything, i just shuttle between different decisions. I feel like i can do it by there is resistance. </blockquote>
+	</div>
+
+	<div>
+		<p>Group co working was transformational.</p>
+		<blockquote class="text-neutral-400 pl-4">Doing co working with friends(fookers) was transformational. I felt like i was doing meaningful work after a long time. If not for that, i would have never pushed the limits. Way to go! </blockquote>
 	</div>
 
 </div>
@@ -83,6 +138,7 @@
 <style>
 	.test {
 		font-family: 'Tiempos Headline Light' !important;
+		
 	}
 
 	@media (max-width: 420px) {
