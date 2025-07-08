@@ -78,6 +78,7 @@
 			<h2 class="font-bold">Reads: </h2>
 			<ol class="list-decimal ml-5">
 				<li class="link"><a href="/thoughts/week-1(22-feb-25-to-03-mar-25)">Week 1(22-feb-25 to 03-mar-25)</a></li>
+				<li class="link"><a href="/thoughts/week-2(01-july-25-to-08-july-25)">Week 2(01-july-25 to 08-july-25)</a></li>
 			</ol>
 		</div>
 
