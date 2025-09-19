@@ -2,56 +2,115 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* Modern navigation styling */
 nav {
-  @apply flex items-start text-neutral-500 justify-end space-x-6 text-lg py-0.5;
+  @apply flex items-start text-secondary-500 justify-end space-x-8 text-lg py-2;
+  @apply transition-all duration-300 ease-in-out;
 }
 
 .active-link {
-  text-decoration: underline;
-  text-decoration-color: black;
-  text-underline-offset: 4px;
+  @apply text-primary-600 relative;
+  text-decoration: none;
+}
+
+.active-link::after {
+  content: '';
+  @apply absolute -bottom-1 left-0 w-full h-0.5 bg-primary-600;
+  @apply transform scale-x-100 transition-transform duration-300;
 }
 
 .page-title {
-  @apply font-light;
+  @apply font-light text-secondary-900;
+  @apply transition-colors duration-300;
 }
 
-
+/* Responsive navigation */
 @media (max-width: 420px) {
   nav {
-    @apply flex-col items-end space-x-0;
+    @apply flex-col items-end space-x-0 space-y-2;
   }
 }
 
 @layer base {
   hr {
-    @apply border-neutral-200;
+    @apply border-secondary-200;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-secondary-50 to-primary-50;
+    @apply text-secondary-800 leading-relaxed;
   }
 }
 
 @layer components {
+  /* 4pt Grid System Utilities */
+  .spacing-4pt {
+    @apply space-y-4;
+  }
+  
+  .spacing-8pt {
+    @apply space-y-8;
+  }
+  
+  .spacing-12pt {
+    @apply space-y-12;
+  }
+  
+  .spacing-16pt {
+    @apply space-y-16;
+  }
+  
+  .spacing-24pt {
+    @apply space-y-24;
+  }
+
   .link {
-    @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
-    @apply hover:text-black hover:decoration-black transition-colors;
-    @apply dark:hover:text-white dark:hover:decoration-white;
+    @apply relative text-primary-600 no-underline font-medium;
+    @apply hover:text-primary-700 transition-all duration-300;
+    @apply after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5;
+    @apply after:bg-primary-600 after:transition-all after:duration-300;
+    @apply hover:after:w-full;
   }
 
   .layout-md {
-    @apply max-w-screen-md mx-auto px-4 sm:px-6;
+    @apply max-w-4xl mx-auto px-6 sm:px-8 lg:px-12;
+    @apply animate-fade-in;
   }
 
   .heading2 {
-    @apply text-black text-xl font-semibold mb-4;
+    @apply text-primary-600 text-2xl font-bold mb-6;
+  }
+  
+  .card {
+    @apply bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg;
+    @apply border border-secondary-200/50 p-6;
+    @apply hover:shadow-xl hover:scale-[1.02] transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600;
+    @apply text-white font-semibold px-6 py-3 rounded-xl;
+    @apply hover:bg-primary-700;
+    @apply transform hover:scale-105 transition-all duration-300;
+    @apply shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary-100 text-secondary-700 font-semibold px-6 py-3 rounded-xl;
+    @apply hover:bg-secondary-200 hover:text-secondary-800;
+    @apply transform hover:scale-105 transition-all duration-300;
+    @apply border border-secondary-300;
   }
 }
 
-html {
-  @apply motion-safe:scroll-smooth;
-}
-
+/* Modern body styling with 4pt grid spacing */
 body {
-  @apply /* antialiased */ py-12 sm:py-24 md:py-32 text-neutral-700;
+  @apply antialiased py-16 sm:py-20 md:py-24;
+  @apply min-h-screen;
 }
 
 
@@ -59,53 +118,60 @@ body {
   color-scheme: dark;
 }
 
-/* General selection styles */
+/* Modern selection styles */
 ::selection {
-  background-color: #FFFF00; /* Bright yellow */
-  color: #000000; /* Ensure text is black when selected */
+  background-color: rgba(14, 165, 233, 0.2); /* Primary blue with transparency */
+  color: #0369a1; /* Primary-700 */
 }
 
 /* For Firefox */
 ::-moz-selection {
-  background-color: #FFFF00;
-  color: #000000;
+  background-color: rgba(14, 165, 233, 0.2);
+  color: #0369a1;
 }
 
-/* Specific style for the "everything" span */
+/* Specific style for highlighted elements */
 .border-dashed::selection {
-  background-color: #FFFF00;
-  color: #000000;
-  text-shadow: none; /* Remove any text shadow if present */
+  background-color: rgba(217, 70, 239, 0.2); /* Accent color with transparency */
+  color: #a21caf; /* Accent-700 */
+  text-shadow: none;
 }
 
 .border-dashed::-moz-selection {
-  background-color: #FFFF00;
-  color: #000000;
+  background-color: rgba(217, 70, 239, 0.2);
+  color: #a21caf;
   text-shadow: none;
 }
 
 .border-dashed {
   border-style: dashed;
+  @apply border-accent-400 animate-pulse;
 }
 
 .border-b-2 {
   border-bottom-width: 2px;
+  @apply border-accent-500;
 }
 
 .g {
-  @apply text-neutral-600;
+  @apply text-secondary-500;
 }
 
 em {
-  @apply font-serif text-[110%] leading-[100%];
+  @apply font-serif text-[110%] leading-[100%] text-primary-700;
+  @apply italic font-medium;
 }
 
 .project-pair {
-  @apply grid sm:grid-cols-[1fr,2fr] gap-y-1 -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors;
+  @apply grid sm:grid-cols-[1fr,2fr] gap-y-2 -mx-4 px-4 py-3;
+  @apply hover:bg-white/60 hover:backdrop-blur-sm rounded-xl;
+  @apply transition-all duration-300 hover:shadow-md;
+  @apply border border-transparent hover:border-secondary-200;
 }
 
 aside {
-  @apply mt-0.5 text-base text-neutral-500;
+  @apply mt-1 text-base text-secondary-500;
+  @apply transition-colors duration-300;
 }
 
 /* Correction for vertical navigation links on mobile. */
@@ -151,15 +217,18 @@ aside {
 }
 
 .row {
-  @apply flex items-center space-x-4;
+  @apply flex items-center space-x-6 py-3;
+  @apply hover:bg-white/40 rounded-lg px-4 -mx-4;
+  @apply transition-all duration-300;
 }
 
 .row span {
-  @apply text-neutral-500;
+  @apply text-secondary-600 font-medium min-w-[100px];
 }
 
 .row hr {
-  @apply w-full mt-0.5 border-neutral-300 border-dotted;
+  @apply w-full mt-0.5 border-secondary-300 border-dotted;
+  @apply transition-colors duration-300;
 }
 
 
@@ -171,12 +240,20 @@ aside {
   .page-title :first-child {
     @apply hidden;
   }
+  
+  .layout-md {
+    @apply px-4;
+  }
 }
 
 button {
-  @apply flex items-center text-neutral-400 transition-colors hover:text-black;
+  @apply flex items-center text-secondary-500 transition-all duration-300;
+  @apply hover:text-primary-600 hover:scale-105;
+  @apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50;
+  @apply rounded-lg px-3 py-2;
 }
 
 button.active {
-  @apply text-black;
+  @apply text-primary-600 bg-primary-50;
+  @apply shadow-sm;
 }

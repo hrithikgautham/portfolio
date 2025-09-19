@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { ArrowUpRight } from 'lucide-svelte';
 	import Seo from '$lib/components/Seo.svelte';
-	import Header from '$lib/components/Header.svelte';
 	import { browser, dev } from "$app/environment";
 </script>
 
@@ -30,11 +29,11 @@
     data-sveltekit-noscroll
     data-sveltekit-preload-code="eager"
   >
-    <h1 class="font-bold text-black text-2xl mb-12 md:mb-6">
+    <h1 class="font-bold text-black text-2xl mb-8 md:mb-4">
       <a href="/thoughts">Week 1(22-Feb-25 to 03-Mar-25)</a>
     </h1>
 		<h1>
-      <a href="/thoughts" class="font-bold test text-neutral-500 hover:underline">thoughts</a>
+      
     </h1>
   </header>
 	
@@ -45,7 +44,7 @@
 	 and
 	<span class="test border-dashed border-b-2 everything-span">everything</span>
 	<span
-		style="background: linear-gradient(to right, #B22222, #000000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+		class="text-red-700"
 	>
 		<span class="italic test">in</span>-<span class="test"> between. </span>
 	</span>

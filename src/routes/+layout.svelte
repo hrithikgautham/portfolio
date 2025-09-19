@@ -20,17 +20,20 @@
   
   
   
+  <Header />
+  
   {#if isMobile || reducedMotion}
     <!--
       Disable page transitions on mobile due to a browser engine bug.
       Also disable them for reduced-motion users.
     -->
-    <main>
+    <main class="spacing-8pt">
       <slot />
     </main>
   {:else}
     {#key data.pathname}
       <main
+        class="spacing-8pt"
         in:fly={{ x: -10, duration: 350, delay: 350 }}
         out:fly={{ y: 5, duration: 350 }}
       >
