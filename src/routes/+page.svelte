@@ -78,7 +78,7 @@
 			<div>
 				<h2 class="heading2">Experience</h2>
 				<div class="space-y-4">
-					<div class="project-pair">
+					<div >
 						<div class="text-secondary-600 font-medium">Software Engineer</div>
 						<div>
 							<p class="text-lg text-secondary-700 leading-relaxed">
